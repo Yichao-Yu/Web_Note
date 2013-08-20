@@ -1,0 +1,12 @@
+{
+	"name": "Web Note",
+	"description": "Take note whiling learning online.",
+	"version": "0.0.1",
+	"permissions": ["contextMenus"],
+	"background": {
+		"persistent": false,
+		"page": "background.html"
+	},
+	"content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+	"manifest_version": 2
+}
