@@ -10,7 +10,7 @@ function onClickHandler(info, tab) {
 				console.log(JSON.stringify(info.selectionText));
 			}
 			break;
-		case default:
+		default:
 			console.log('Other context than selection');
 	}
 	
