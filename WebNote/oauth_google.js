@@ -40,7 +40,7 @@ function handleAuthResult(authResult) {
 			});
 
 			//gapi.client.load('drive', 'v2', driverApiLoaded);
-			makeCorsApiRequest('GET', "https://www.googleapis.com/drive/v2/files", driverApiLoaded)
+			//makeCorsApiRequest('GET', "https://www.googleapis.com/drive/v2/files", driverApiLoaded)
 		}
 		else {
 			alert('unknow response type');
